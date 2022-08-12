@@ -1,0 +1,50 @@
+keyword,designed_entity,associated_group,affiliated_party,entity_type,proper_noun,selection
+Maurer,Ueli_Maurer,Bundesrat,SVP,Politician,1,1
+Parmelin,Guy_Parmelin,Bundesrat,SVP,Politician,1,1
+Cassis,Ignazio_Cassis,Bundesrat,FDP,Politician,1,0
+Sutter,Karin_Keller_Sutter,Bundesrat,FDP,Politician,1,0
+Sommaruga,Simonetta_Sommaruga,Bundesrat,SP,Politician,1,1
+Berset,Alain_Berset,Bundesrat,SP,Politician,1,1
+Amherd,Viola_Amherd,Bundesrat,Mitte,Politician,1,0
+bundesr\w*,Bundesrat,Bundesrat,n/a,Political_body,0,1
+"\\b[dD]\w* Bund[es]{0,2}\\b",Bundesrat,Bundesrat,n/a,Political_body,1,1
+Stadler(?!\ Rail),Tanja_Stadler,Taskforce,n/a,Person,1,1
+(?<!Simon\ )Tanner,Marcel_Tanner,Taskforce,n/a,Person,1,0
+Ackermann,Martin_Ackermann,Taskforce,n/a,Person,1,1
+Egger,Matthias_Egger,Taskforce,n/a,Person,1,0
+\w*taskforce,Taskforce,Taskforce,n/a,Political_institution,0,1
+Berger,Christoph_Berger,EKIF,n/a,Person,1,1
+EKIF,EKIF,EKIF,n/a,Political_institution,1,1
+"eidgenoessische[n]{0,1} kommission fuer impffragen",EKIF,EKIF,n/a,Political_institution,0,1
+Kuster,Stefan_Kuster,BAG,n/a,Person,1,0
+Strupler,Pascal_Strupler,BAG,n/a,Person,1,0
+Masserey,Virginie_Masserey,BAG,n/a,Person,1,0
+Levy,Anne_Levy,BAG,n/a,Person,1,0
+Mathys,Patrick_Mathys,BAG,n/a,Person,1,1
+Salathe,Marcel_Salathe,BAG,n/a,Person,1,1
+(?<!Robert\ )Koch,Daniel_Koch,BAG,n/a,Person,1,1
+BAG,BAG,BAG,n/a,Political_institution,1,1
+"bundesamt[es]{0,2} fuer gesundheit",BAG,BAG,n/a,Political_institution,0,1
+swissmedic,Swissmedic,Swissmedic,n/a,Political_institution,0,1
+Engelberger,Lukas_Engelberger,GDK,Die_Mitte,Person,1,1
+GDK,GDK,GDK,n/a,Political_institution,1,1
+gesundheitsdirektorenkonferenz,GDK,GDK,n/a,Political_institution,0,1
+SVP\\b,SVP,SVP,SVP,Party,1,1
+SP\\b,SP,SP,SP,Party,1,1
+FDP\\b,FDP,FDP,FDP,Party,1,1
+CVP\\b,Die_Mitte,Die_Mitte,Die_Mitte,Party,1,1
+\\b[dD]\w* Mitte\\b,Die_Mitte,Die_Mitte,Die_Mitte,Party,1,1
+\\b[dD]\w* Gruene\w*,Die_Gruene,Die_Gruene,Die_Gruene,Party,1,1
+Gruenliberale\w*,Gruenliberale,Gruenliberale,Gruenliberale,Party,1,0
+Juso,Juso,Juso,Juso,Party,1,0
+\w*Befuerwort\w*,Befuerworter,Approving,n/a,Political_camp,1,1
+ja lager,Ja_Lager,Approving,n/a,Political_camp,0,0
+\w*gegner\w*,Gegner,Disapproving,n/a,Political_camp,0,1
+\w*leugner\w*,Leugner,Disapproving,n/a,Political_camp,0,0
+\w*skeptiker\w*,Skeptiker,Disapproving,n/a,Political_camp,0,1
+\w*kritiker\w*,Kritiker,Disapproving,n/a,Political_camp,0,1
+opposition,Opposition,Disapproving,n/a,Political_camp,0,1
+nein lager,Nein_Lager,Disapproving,n/a,Political_camp,0,0
+\w*demonstrant\w*,Demonstranten,Disapproving,n/a,Political_camp,0,1
+freunde\w* der verfassung,Freunde_Der_Verfassung,Disapproving,n/a,Political_camp,0,0
+mass\\b voll\\b,Mass_Voll,Disapproving,n/a,Political_camp,0,0
