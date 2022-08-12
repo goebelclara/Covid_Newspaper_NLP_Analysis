@@ -23,9 +23,9 @@ The data underlying the newspaper analysis stems from the Swiss Media Database, 
 **8_Topic_Model**:  Identify key topics of criticism in sentiment-labelled newspaper articles using LDA, NMF, and clustering methods<br>
 
 ## External resources used:
-**Data**: Data from SMD<br>
-**Lexicons**: SentiWS, PolArt, Emotion, and GERVader lexicons<br>
-**Embeddings**: fastText, GloVe, Word2Vec<br>
+**Data**: Data from [SMD](https://www.smd.ch/SMDView/log/index.jsp)<br>
+**Lexicons**: [SentiWS](https://wortschatz.uni-leipzig.de/de/download), [PolArt](https://aclanthology.org/W09-4635.pdf), [Emotion](https://github.com/Jana-Z/german-sentiment-lexicon), and [GERVader](https://github.com/KarstenAMF/GerVADER) lexicons<br>
+**Embeddings**: [fastText](https://fasttext.cc/docs/en/crawl-vectors.html), [GloVe](https://www.deepset.ai/german-word-embeddings), [Word2Vec](https://www.deepset.ai/german-word-embeddings)<br>
 
 ## Method description:
 TBA
